@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            border: 1px solid rebeccapurple
+            
+        }
+        .box.outer{
+            background-color: gray;
+        }
+        .box.inner{
+            background-color: indianred;
+            transform: rotate(45deg) scale(.75)
+        }
+    </style>
+</head>
+<body>
+   <h1> Tranform</h1>
+  <div class="box outer">
+      <div class="box inner">box-1</div>
+  </div>
+  <div class="box outer">
+      <div class="box inner">box-2</div>
+  </div>
+  <div class="box outer">
+      <div class="box inner">box-3</div>
+  </div>
+</body>
+</html>
